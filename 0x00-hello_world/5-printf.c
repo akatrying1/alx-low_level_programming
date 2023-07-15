@@ -2,7 +2,7 @@
 
 int main(void) {
 
-  printf("The following is a piece of art,,\n");
+  printf("The following is a piece of art,\n");
   return 0;
 }
 
