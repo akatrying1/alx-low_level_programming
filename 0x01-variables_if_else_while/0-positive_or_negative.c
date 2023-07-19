@@ -1,15 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 
-/**
+/*
  *
  * main - entry point
  *
  * return always 0 (success)
- * 
- * description / are n positive or negative
- *\
+ *
+ * description: are n positive or negative
+ */
 
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0) 
+	if (n > 0)
 	printf("%i is positive", n);
 	}
 	else if (n == 0)
@@ -26,4 +26,4 @@ int main(void)
 	else if (n < 0)
 	printf("%d is negative", n);
 	return (0);
-} 
+}
